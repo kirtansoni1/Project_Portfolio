@@ -1,0 +1,4 @@
+Sample login details
+
+userID - admin
+Password - 12345
