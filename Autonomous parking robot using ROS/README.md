@@ -14,7 +14,7 @@
   <li><strong>Second: </strong>Goal finding and returning to the origin</li>
 <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/2c1bc86c1e605398154ebe788f5cff90b03fa073/Autonomous%20parking%20robot%20using%20ROS/Project%20screenshots/2%20-%20Goal%20finding%2C%20return%20to%20origin.png" width="1000" height="450">
     <li><strong>Third: </strong>Path planning (Informed RRT* algorithm)</li>
-<img src = " https://github.com/kirtansoni1/Project_Portfolio/blob/2c1bc86c1e605398154ebe788f5cff90b03fa073/Autonomous%20parking%20robot%20using%20ROS/Project%20screenshots/3%20-%20Path%20planning.png" width="1000" height="450">
+<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/2c1bc86c1e605398154ebe788f5cff90b03fa073/Autonomous%20parking%20robot%20using%20ROS/Project%20screenshots/3%20-%20Path%20planning.png" width="1000" height="450">
 
   
   
