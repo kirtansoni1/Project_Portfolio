@@ -9,6 +9,7 @@
   <li>Divided the project into four stages:</li>
   <ul></br>
   <li><strong>First: </strong>Wall follower, Obstacle avoidance and 2D point cloud mapping</li>
+  <ul>
 <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Autonomous%20parking%20robot%20using%20ROS/Project%20screenshots/1%20-%20Wall%20Follower%2C%20Mapping.png" width ="40" height="40">
   <ul>
   <li><strong>Second: </strong>Goal finding and returning to the origin</li>
