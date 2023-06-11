@@ -3,7 +3,7 @@
 - <strong>Task</strong>: To make a mobile application which can access the Phone's Gyroscope and Accelerometer and predict the current activiy (Sitting, Walking, Running).
 - <strong>Type</strong>: DIT – Case study project
 - <strong>Discription</strong>:
-<ul>
+<ul><ul>
 <li>Collecting the Dataset</li>
 <li>Data preprocessing and reshaping to train the AI model (RNN: GRU)</li>
 <li>Using tensor flow to convert the model into .tflite format</li>
