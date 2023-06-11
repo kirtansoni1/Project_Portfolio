@@ -7,17 +7,7 @@
 <li>Collecting the Dataset</li>
 <li>Data preprocessing and reshaping to train the AI model (RNN: GRU)</li>
 <li>Using tensor flow to convert the model into .tflite format</li>
-<li>Created GUI using Kivy/KivyMD</li>
- <style>
-  .row {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .row .column img {
-    margin-right: 20px;
-  }
-</style>
+ <li>Created GUI using Kivy/KivyMD</li></br>
  <div class="row">
   <div class="column">
 <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/771a6270a8eea3fa2e3fb80da5d26236617c6a2a/Activity%20prediction%20app%20using%20AI/Project%20Screenshots/Login%20Page.png" width = "200" height = "400">
