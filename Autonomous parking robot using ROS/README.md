@@ -4,7 +4,7 @@
 - <strong>Type</strong>: DIT – Case study project
 - <strong>Discription</strong>:
   <li>Used TurtleBot3 Burger model.</li>
-  <li>Programmed Rpi4 with Python <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg" title="Python" alt="Pyhton" width="40" height="40"/>&nbsp;</li>
+  <li>Programmed Rpi4 with Python <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg" alt="Pyhton" width="40" height="40"/>&nbsp;</li>
 
 
 
