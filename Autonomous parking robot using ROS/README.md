@@ -5,3 +5,5 @@
 - After the map generation, the map points and goal coordinates are sent to the path planning module. The path planning uses Informed RRT* algorithm which returns set of way points and the turtlebot follows the path using PID controller to the goal/parking spot.
 
 - RaspberryPi 4, Python, ROS, LiDAR, TurtleBot3 Burger
+
+![Alt text](https://github.com/kirtansoni1/Project_Portfolio/blob/main/Autonomous%20parking%20robot%20using%20ROS/Project%20screenshots/1%20-%20Wall%20Follower%2C%20Mapping.png)
