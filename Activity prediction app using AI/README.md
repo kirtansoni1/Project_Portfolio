@@ -10,7 +10,7 @@
 <li>Created GUI using Kivy/KivyMD</li>
  <div class="row">
   <div class="column">
-<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/771a6270a8eea3fa2e3fb80da5d26236617c6a2a/Activity%20prediction%20app%20using%20AI/Project%20Screenshots/Login%20Page.png" width = "200" height = "400" style="margin-right": 50px>
+<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/771a6270a8eea3fa2e3fb80da5d26236617c6a2a/Activity%20prediction%20app%20using%20AI/Project%20Screenshots/Login%20Page.png" width = "200" height = "400" style="margin-right": 100px>
 <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/fd3570e971eddee554186846fa2f8b3a7c40d871/Activity%20prediction%20app%20using%20AI/Project%20Screenshots/Main%20Page.png" width = "300" height = "400" style="margin-right": 50px>
 <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/a0539aae31d41f16c9b27bb7660d0236ab83081a/Activity%20prediction%20app%20using%20AI/Project%20Screenshots/Settings%20Page.png" width = "200" height = "400" style="margin-right": 50px>
 <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/aff67550ef71c53dcfcbc2744f80a8ee6837fc57/Activity%20prediction%20app%20using%20AI/Project%20Screenshots/Activity%20stats%20page.png" width = "200" height = "400">
