@@ -17,9 +17,5 @@ detailed documentation including wiring diagram</li>
   <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/205ca23ad7b68ba8fe1a993ccb033d233e0d8222/Automatic%20Preroll%20Machine%20project/Schematic_Rol%20Making%20Machine.png"></br></br>
 <li>Electrical system:</li>
 <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/abf0b269dbe1fe702c4af2ee78b2d7b679f1dbd9/Automatic%20Preroll%20Machine%20project/Electric_design_Roll%20Making%20Machine.png"></br></br>
-<li>Electrical system calculation:</li>
-<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/b533e9f0ae037ea453400f4677fa4d631b7dd1d0/Umanned%20Guided%20Vechicle%20for%20agriculture/System%20Calculation.png">
-
-- It is a machine which can crush, mix, fill and roll cigarettes fully autonomously, the user just needs to fill the mixture hopper and cigarette paper rolls.
-- My task was to develop machine logic, Component selection/calculation, PCB Designing, Electrical designing, Microcontroller progamming.
-- I Used AVR ATmega 2560 MCU, C++ language for programming and EasyEDA software for PCB designing.
+<li>PCB design:</li>
+<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/9a6be1efeaa21fac57cefea7ed3fb32b15c31836/Automatic%20Preroll%20Machine%20project/PCB_Design.png">
