@@ -12,7 +12,7 @@ motor, resulting in exceptional productivity levels</li>
 <li>component selection with proper calculations and prepared a
 detailed documentation including wiring diagram</li>
 <li>Machine assembly:</li>
-  <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/716811cf1d74a46b38a9533569606118cf0afca1/Automatic%20Preroll%20Machine%20project/Machine%20image.png" width ="750" height = "500"></br>
+  <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/716811cf1d74a46b38a9533569606118cf0afca1/Automatic%20Preroll%20Machine%20project/Machine%20image.png" width ="750" height = "500"></br></br>
 <li>PCB circuit diagram:</li>
   <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/205ca23ad7b68ba8fe1a993ccb033d233e0d8222/Automatic%20Preroll%20Machine%20project/Schematic_Rol%20Making%20Machine.png"></br></br>
 <li>Electrical system:</li>
