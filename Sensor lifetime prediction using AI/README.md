@@ -3,7 +3,7 @@
 - <strong>Type</strong>: DIT – Case study project
 - <strong>Discription</strong>:
 <ul><ul>
-<li>The sensor data was collected using HTMOL process with 0, 500, 1000, 1500 hours treatment.</li>
+<li>The sensor data was collected using HTMOL process with 0, 500, 1000, 1500 hours treatment at 125C and 150C.</li>
 <li>The data given to me was in the excel format so first I developed a python script that can automatically fetch the necessary data</li>
 <li>Data preprocessing</li>
 <li>Model development using Linear regrresion and Arrhenius equation.</li>
