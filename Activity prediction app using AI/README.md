@@ -15,4 +15,4 @@
 <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/a0539aae31d41f16c9b27bb7660d0236ab83081a/Activity%20prediction%20app%20using%20AI/Project%20Screenshots/Settings%20Page.png" width = "200" height = "400">
 <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/aff67550ef71c53dcfcbc2744f80a8ee6837fc57/Activity%20prediction%20app%20using%20AI/Project%20Screenshots/Activity%20stats%20page.png" width = "200" height = "400">
   </div></br>
-  <li>All data is well encrypted with RSA and stored using SQL.</li>
+  <li>All data is well encrypted with RSA and stored/accessed using SQL querries.</li>
