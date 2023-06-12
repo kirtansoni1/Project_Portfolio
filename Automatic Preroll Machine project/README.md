@@ -11,7 +11,7 @@ concurrent operations of 20 stepper motors, 4 oscillators, and a vacuum
 motor, resulting in exceptional productivity levels</li>
 <li>component selection with proper calculations and prepared a
 detailed documentation including wiring diagram</li>
-<li>Robot assembly:</li>
+<li>Machine assembly:</li>
   <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/c6acfed935e01cea7fba4fdb6686d773dbe550a1/Umanned%20Guided%20Vechicle%20for%20agriculture/UGV%20Robot%20Assembly.JPG" width ="750" height = "500"></br>
 <li>Circuit diagram and PCB design:</li>
   <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/f29d8a88e7081a2b3f8d22a7e9ec6fdfd2f1f521/Umanned%20Guided%20Vechicle%20for%20agriculture/Schematic_UGV%20PCB.png"></br></br>
