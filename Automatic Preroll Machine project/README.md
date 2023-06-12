@@ -16,7 +16,7 @@ detailed documentation including wiring diagram</li>
 <li>PCB circuit diagram:</li>
   <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/205ca23ad7b68ba8fe1a993ccb033d233e0d8222/Automatic%20Preroll%20Machine%20project/Schematic_Rol%20Making%20Machine.png"></br></br>
 <li>Electrical system:</li>
-<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/9b9c375742c9898dd25e6a1b60d4fafd9b65d6b4/Umanned%20Guided%20Vechicle%20for%20agriculture/Electrical%20_design_UGV.png"></br></br>
+<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/abf0b269dbe1fe702c4af2ee78b2d7b679f1dbd9/Automatic%20Preroll%20Machine%20project/Electric_design_Roll%20Making%20Machine.png"></br></br>
 <li>Electrical system calculation:</li>
 <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/b533e9f0ae037ea453400f4677fa4d631b7dd1d0/Umanned%20Guided%20Vechicle%20for%20agriculture/System%20Calculation.png">
 
