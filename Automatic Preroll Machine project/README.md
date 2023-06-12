@@ -13,8 +13,8 @@ motor, resulting in exceptional productivity levels</li>
 detailed documentation including wiring diagram</li>
 <li>Machine assembly:</li>
   <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/c6acfed935e01cea7fba4fdb6686d773dbe550a1/Umanned%20Guided%20Vechicle%20for%20agriculture/UGV%20Robot%20Assembly.JPG" width ="750" height = "500"></br>
-<li>Circuit diagram and PCB design:</li>
-  <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/f29d8a88e7081a2b3f8d22a7e9ec6fdfd2f1f521/Umanned%20Guided%20Vechicle%20for%20agriculture/Schematic_UGV%20PCB.png"></br></br>
+<li>PCB circuit diagram:</li>
+  <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/205ca23ad7b68ba8fe1a993ccb033d233e0d8222/Automatic%20Preroll%20Machine%20project/Schematic_Rol%20Making%20Machine.png"></br></br>
 <li>Electrical system:</li>
 <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/9b9c375742c9898dd25e6a1b60d4fafd9b65d6b4/Umanned%20Guided%20Vechicle%20for%20agriculture/Electrical%20_design_UGV.png"></br></br>
 <li>Electrical system calculation:</li>
