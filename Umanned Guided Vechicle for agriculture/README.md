@@ -15,6 +15,6 @@
 <li>Circuit diagram and PCB design:</li>
   <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/f29d8a88e7081a2b3f8d22a7e9ec6fdfd2f1f521/Umanned%20Guided%20Vechicle%20for%20agriculture/Schematic_UGV%20PCB.png"></br></br>
 <li>Electrical system:</li>
-<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/9b9c375742c9898dd25e6a1b60d4fafd9b65d6b4/Umanned%20Guided%20Vechicle%20for%20agriculture/Electrical%20_design_UGV.png">
-<li>Electrical system calculation:</li></br></br>
+<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/9b9c375742c9898dd25e6a1b60d4fafd9b65d6b4/Umanned%20Guided%20Vechicle%20for%20agriculture/Electrical%20_design_UGV.png"></br></br>
+<li>Electrical system calculation:</li>
 <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/b533e9f0ae037ea453400f4677fa4d631b7dd1d0/Umanned%20Guided%20Vechicle%20for%20agriculture/System%20Calculation.png">
