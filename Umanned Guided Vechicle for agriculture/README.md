@@ -11,5 +11,6 @@
 <li>~5 hours operating life, 4 LiFePo4 batteries in parallel (600Ah capacity), ~800Kg robot weight.</li>
 <li>Revision update - wireless PS2 controller interface.</li>
 <li>Robot assembly:</li>
-  <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/c6acfed935e01cea7fba4fdb6686d773dbe550a1/Umanned%20Guided%20Vechicle%20for%20agriculture/UGV%20Robot%20Assembly.JPG" width ="750" height = "500">
-  
+  <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/c6acfed935e01cea7fba4fdb6686d773dbe550a1/Umanned%20Guided%20Vechicle%20for%20agriculture/UGV%20Robot%20Assembly.JPG" width ="750" height = "500"></br>
+<li>Circuit diagram and PCB design:</li>
+  <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/f29d8a88e7081a2b3f8d22a7e9ec6fdfd2f1f521/Umanned%20Guided%20Vechicle%20for%20agriculture/Schematic_UGV%20PCB.png">
