@@ -1,6 +1,6 @@
 # Project Portfolio - Kirtan Soni
 
-# Thank you for coming to my repository.
+## Thank you for coming to my repository.
 
 - I am a master's student in AI for Smart Sensors/Actuators at Deggendorf Institute of Technology, Cham campus, Germany. With a strong interest in Embedded/Electrical and AI for Robotics, I have gained valuable experience of 4 years working on diverse projects and expanding my skills in this field. 
 
