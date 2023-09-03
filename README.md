@@ -1,4 +1,4 @@
-# Project Portfolio - Kirtan Soni
+# Project Portfolio - Kirtan A Soni
 
 # Thank you for coming to my repository.
 
