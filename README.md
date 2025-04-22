@@ -2,8 +2,8 @@
 
 ## Thank you for coming to my repository.
 
-- I am a master's student in AI for Smart Sensors/Actuators at Deggendorf Institute of Technology, Cham campus, Germany. With a strong interest in Embedded/Electrical and AI for Robotics, I have gained valuable experience of 4 years working on diverse projects and expanding my skills in this field. 
+- I’m Kirtan Soni, a passionate Embedded AI Systems developer with a proven track record of delivering 25+ successful projects globally. I hold a Master’s degree in Embedded-AI systems from Germany, bringing a strong academic foundation and international perspective to my work. My expertise are, PCB Designing, Hardware Development, Firmware Developement, AI integration and Software integration.
 
-- This repo contains a collection of my best projects of Embedded/Electrical and AI field. Please feel free to go through the projects of your interests!
+- This repo contains a collection of my projects of Embedded/Electrical and AI field. Please feel free to go through the projects of your interests!
 
 - If you have any questions regarding any of my work please feel free to contact me at kirtansoni001@gmail.com
