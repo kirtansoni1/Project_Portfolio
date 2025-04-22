@@ -1,6 +1,10 @@
 # Recyclable waste recognition using CV and AI
-- This was my First semester case study project in which I developed a system that can detect and sort recyclable and non-recyclable waste using YOLOv7 and OpenCV.
-- The data set was manually annotated by me and later trained the YOLO model with 100 epochs.
+- <strong>Task</strong>: To classify different types of garbage using AI.
+- <strong>Type</strong>: DIT – Case study project
+- <strong>Discription</strong>:
+<ul><ul>
+<li>This was my First semester case study project in which I developed a system that can detect and sort recyclable and non-recyclable waste using YOLOv7 and OpenCV.</li>
+<li>The data set was manually annotated by me and later trained the YOLO model with 100 epochs.</li>
 
 # Follow this steps to run waste-recognition using AI project:
 -----------------------------------------------------------
