@@ -14,12 +14,12 @@
 <li>Developed a complete Software integration with IoT pipeline and Web Dashboard.</li>
 
 <li>PCB assembly:</li>
-<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Health%20Monitoring%20IoT%20Device/Health_Monitoring_Device.JPG"></br>
-<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Health%20Monitoring%20IoT%20Device/Assembly.png"></br>
+<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Health%20Monitoring%20IoT%20Device/Health_Monitoring_Device.JPG" width = "750" height = "500"></br>
+<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Health%20Monitoring%20IoT%20Device/Assembly.png" width = "750" height = "500"></br>
 <li>PCB design:</li>
-<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Health%20Monitoring%20IoT%20Device/Health_Monitoring_IoT_PCB.png"></br></br>
-<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Health%20Monitoring%20IoT%20Device/dimension_electronics.png"></br></br>
+<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Health%20Monitoring%20IoT%20Device/Health_Monitoring_IoT_PCB.png" width = "750" height = "500"></br></br>
+<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Health%20Monitoring%20IoT%20Device/dimension_electronics.png" width = "750" height = "500"></br></br>
 <li>Web Application Dashboard:</li>
-<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Health%20Monitoring%20IoT%20Device/Health_Monitoring_device_dashboard1.png" width = "700" height = "500"></br></br>
-<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Health%20Monitoring%20IoT%20Device/Health_Monitoring_device_dashboard3.png" width = "700" height = "500"></br></br>
-<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Health%20Monitoring%20IoT%20Device/Health_Monitoring_device_dashboard2.png">
+<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Health%20Monitoring%20IoT%20Device/Health_Monitoring_device_dashboard1.png" width = "750" height = "500"></br></br>
+<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Health%20Monitoring%20IoT%20Device/Health_Monitoring_device_dashboard3.png" width = "750" height = "500"></br></br>
+<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Health%20Monitoring%20IoT%20Device/Health_Monitoring_device_dashboard2.png" width = "750" height = "500">
