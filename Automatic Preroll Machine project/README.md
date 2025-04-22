@@ -13,9 +13,5 @@ motor, resulting in exceptional productivity levels</li>
 detailed documentation including wiring diagram</li>
 <li>Machine assembly:</li>
   <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/716811cf1d74a46b38a9533569606118cf0afca1/Automatic%20Preroll%20Machine%20project/Machine%20image.png" width ="750" height = "500"></br></br>
-<li>PCB circuit diagram:</li>
-  <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/205ca23ad7b68ba8fe1a993ccb033d233e0d8222/Automatic%20Preroll%20Machine%20project/Schematic_Rol%20Making%20Machine.png"></br></br>
-<li>Electrical system:</li>
-<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/abf0b269dbe1fe702c4af2ee78b2d7b679f1dbd9/Automatic%20Preroll%20Machine%20project/Electric_design_Roll%20Making%20Machine.png"></br></br>
-<li>PCB design:</li>
+<li>PCB Layout:</li>
 <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/9a6be1efeaa21fac57cefea7ed3fb32b15c31836/Automatic%20Preroll%20Machine%20project/PCB_Design.png">
