@@ -6,5 +6,4 @@
 </br>
 <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Pipe%20Pressure_Temp%20measuring%20device/Sensor_PCB.png"></br></br>
 
-- Setting Filter Intensity
 <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Pipe%20Pressure_Temp%20measuring%20device/Ardunio_PCB.png"></br></br>
