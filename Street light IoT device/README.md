@@ -4,6 +4,6 @@
 
 ## Project Screenshots
 
-<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Street%20light%20IoT%20device/Control%20Unit%20preview.jpg"></br></br>
-<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Street%20light%20IoT%20device/Dashboard%20GUI%20preview.jpg"></br></br>
+<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Street%20light%20IoT%20device/Control%20Unit%20preview.jpg" width = "300" height = "400"></br></br>
+<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Street%20light%20IoT%20device/Dashboard%20GUI%20preview.jpg" width = "200" height = "400"></br></br>
 <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Street%20light%20IoT%20device/PCB%20preview.png">
