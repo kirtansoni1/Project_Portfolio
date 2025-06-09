@@ -1,0 +1,5 @@
+cool_cond: RandomForest (Accuracy: 1.0000, F1: 1.0000, ROC-AUC: 1.0000)
+valve_cond: RandomForest (Accuracy: 0.9773, F1: 0.9773, ROC-AUC: 0.9968)
+pump_leak: GradientBoosting (Accuracy: 0.9977, F1: 0.9977, ROC-AUC: 1.0000)
+hyd_accum: LightGBM (Accuracy: 0.9728, F1: 0.9729, ROC-AUC: 0.9988)
+stable_flag: RandomForest (Accuracy: 0.9773, F1: 0.9772, ROC-AUC: 0.9926)

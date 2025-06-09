@@ -1,0 +1,7 @@
+# This file lists all the libraries used
+pandas
+matplotlib
+seaborn
+xgboost
+lightgbm
+pyserial
