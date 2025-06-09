@@ -14,7 +14,7 @@
 </ul></ul>
 
 <li>PCB assembly:</li>
-<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Predictive%20Maintenance%20Device/Machine_Monitoring_PCB_Slave_Module.JPG" width ="750" height = "500"></br>
+<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Predictive%20Maintenance%20Device/Machine_Monitoring_PCB_Slave_Module.JPG"></br>
 <li>Circuit diagram and PCB design:</li>
 <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Predictive%20Maintenance%20Device/PCB_Screenshot.png"></br></br>
 <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Predictive%20Maintenance%20Device/Schematics.png"></br></br>
