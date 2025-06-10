@@ -1,4 +1,4 @@
-# Window Cleaning AI Drone
+# Predictive Maintenance Device
 
 - <strong>Task</strong>: To do Component selection, Electrical circuit designing, PCB designing and Microcontroller programming.
 - <strong>Type</strong>: Freelance project - Germany
