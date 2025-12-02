@@ -13,12 +13,11 @@
 <li>Developed a complete Software integration with WiFi pipeline and Web Dashboard.</li>
 
 <li>Prototype assembly:</li>
-<img src = "https://github.com/kirtansoni1/Helmet_Wear_Detection_Device/blob/1cada3c7272c0a009052f474c12f0a04b28927f3/Hardware/Assembly_on_Helmet.jpg" width = "750" height = "500"></br>
-<img src = "https://github.com/kirtansoni1/Helmet_Wear_Detection_Device/blob/433906df36aed343f9ae195fbaa30ee2a92289cb/Hardware/Assembly_3.jpg" width = "750" height = "500"></br>
+<img src = "https://github.com/kirtansoni1/Helmet_Wear_Detection_Device/blob/1cada3c7272c0a009052f474c12f0a04b28927f3/Hardware/Assembly_on_Helmet.jpg" width = "500" height = "750"></br>
+<img src = "https://github.com/kirtansoni1/Helmet_Wear_Detection_Device/blob/433906df36aed343f9ae195fbaa30ee2a92289cb/Hardware/Assembly_3.jpg" width = "500" height = "750"></br>
 <li>PCB design:</li>
 <img src = "https://github.com/kirtansoni1/Helmet_Wear_Detection_Device/blob/433906df36aed343f9ae195fbaa30ee2a92289cb/Hardware/PCB_3D_1.png" width = "750" height = "500"></br></br>
 <img src = "https://github.com/kirtansoni1/Helmet_Wear_Detection_Device/blob/433906df36aed343f9ae195fbaa30ee2a92289cb/Hardware/PCB_3D_3.png" width = "750" height = "500"></br></br>
 <li>Web Application Dashboard:</li>
 <img src = "https://github.com/kirtansoni1/Helmet_Wear_Detection_Device/blob/1cada3c7272c0a009052f474c12f0a04b28927f3/Softwware_Screenshot_2.png" width = "750" height = "500"></br></br>
 <img src = "https://github.com/kirtansoni1/Helmet_Wear_Detection_Device/blob/1cada3c7272c0a009052f474c12f0a04b28927f3/Softwware_Screenshot.png" width = "750" height = "500"></br></br>
-<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Health%20Monitoring%20IoT%20Device/Health_Monitoring_device_dashboard2.png" width = "750" height = "500">
