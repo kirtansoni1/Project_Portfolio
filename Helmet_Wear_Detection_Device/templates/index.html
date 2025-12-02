@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Helmet Monitor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Chart.js (stepped line) -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3" defer></script>
+
+  <link rel="icon" href="data:,">
+  <style>
+    :root{
+      --bg: #0f1221;           /* deep navy for desktop pop */
+      --card: #161a2e;
+      --text: #e7ecf5;
+      --muted:#a9b2c7;
+      --green:#12d27c;
+      --red:#ff5a5a;
+      --accent:#7aa2ff;
+      --border:#2a3152;
+    }
+    @media (prefers-color-scheme: light){
+      :root{
+        --bg: #f6f8ff;
+        --card: #ffffff;
+        --text: #0e1225;
+        --muted:#4a5568;
+        --green:#0ea765;
+        --red:#d43d3d;
+        --accent:#2b59ff;
+        --border:#e5e9f2;
+      }
+    }
+    html,body{
+      background: var(--bg);
+      color: var(--text);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+      margin:0; padding:0;
+    }
+    .container{ max-width: 1080px; margin: 32px auto; padding: 0 16px; }
+    .grid{ display:grid; grid-template-columns: 1fr 1fr; gap:16px; }
+    @media (max-width: 960px){ .grid{ grid-template-columns: 1fr; } }
+    .card{ background: var(--card); border:1px solid var(--border); border-radius:16px; padding:20px; box-shadow: 0 6px 20px rgba(0,0,0,.18);}
+    .header{ display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:16px; }
+    .title{ font-weight:700; letter-spacing:.2px; }
+    .pill{ font-weight:600; padding:8px 12px; border-radius:999px; display:inline-flex; align-items:center; gap:8px; border:1px solid transparent; }
+    .pill.on{ background: color-mix(in oklab, var(--green) 20%, transparent); color: var(--green); border-color: color-mix(in oklab, var(--green) 40%, transparent); }
+    .pill.off{ background: color-mix(in oklab, var(--red) 18%, transparent); color: var(--red); border-color: color-mix(in oklab, var(--red) 35%, transparent); }
+    .muted{ color: var(--muted); font-size:.95rem; }
+    .kpi{ display:flex; gap:18px; flex-wrap:wrap; }
+    .kpi .item{ background: var(--card); border:1px solid var(--border); padding:12px 16px; border-radius:12px; }
+    .table{ width:100%; border-collapse: collapse; }
+    .table th, .table td{ text-align:left; padding:10px 12px; border-bottom:1px solid var(--border); }
+    .table th{ color: var(--muted); font-weight:600; }
+    .right{ text-align:right; }
+    .btn{ background: var(--accent); color:white; border:none; padding:10px 14px; border-radius:10px; font-weight:600; cursor:pointer; }
+    .btn:disabled{ opacity:.55; cursor:not-allowed;}
+    canvas{ width:100%; height:360px; }
+    .small{ font-size:.9rem; }
+    .chart-container {
+      position: relative;
+      width: 100%;
+      height: 360px;   /* fixed height, no more infinite growth */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div>
+        <div class="title" style="font-size:1.4rem;">Helmet Monitor — Operational Dashboard</div>
+        <div class="muted small">ESP32-C3 → Flask | status, sessions, timeline</div>
+      </div>
+      <div>
+        <button id="refresh" class="btn">Refresh</button>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <div class="header">
+          <div class="title">Live Status</div>
+          <div id="statusPill" class="pill off">Helmet Removed</div>
+        </div>
+        <div class="kpi">
+          <div class="item">
+            <div class="muted small">Last Change</div>
+            <div id="lastChange" style="font-weight:700;">—</div>
+          </div>
+          <div class="item">
+            <div class="muted small">Uptime (ON) — 24h</div>
+            <div id="uptime24" style="font-weight:700;">—</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="header">
+          <div class="title">Last 24h Timeline</div>
+          <div class="muted small">Step chart: 1 = Worn, 0 = Removed</div>
+        </div>
+        <div class="chart-container">
+  <canvas id="chart"></canvas>
+</div>
+      </div>
+    </div>
+
+    <div class="grid" style="margin-top:16px;">
+      <div class="card">
+        <div class="header">
+          <div class="title">Worn Sessions (last 24h)</div>
+          <div class="muted small">Start → End & duration</div>
+        </div>
+        <table class="table" id="sessionsTbl">
+          <thead><tr><th>Start</th><th>End</th><th class="right">Duration</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <div class="card">
+        <div class="header">
+          <div class="title">Event Log (last 24h)</div>
+          <div class="muted small">State changes</div>
+        </div>
+        <table class="table" id="logTbl">
+          <thead><tr><th>Timestamp</th><th>State</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+<script>
+  // ---- Utilities
+  const fmt = (iso) => {
+    if(!iso) return "—";
+    const d = new Date(iso);
+    return d.toLocaleString(undefined, {hour12:false});
+  };
+  const fmtDur = (sec) => {
+    if (sec < 60) return `${sec}s`;
+    const m = Math.floor(sec/60), s = sec%60;
+    if (m < 60) return `${m}m ${s}s`;
+    const h = Math.floor(m/60), mm = m%60;
+    return `${h}h ${mm}m`;
+  };
+
+  let chart;
+  let isRefreshing = false;
+
+  // ---- Chart bootstrap
+  const initChart = (points) => {
+    const canvas = document.getElementById('chart');
+    const existing = Chart.getChart(canvas);
+    if (existing) existing.destroy();
+
+    const ctx = canvas.getContext('2d');
+    const dataPoints = points.map(p => ({ x: new Date(p.x), y: p.y }));
+
+    chart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        datasets: [{
+          label: 'Helmet Worn',
+          data: dataPoints,
+          stepped: true,
+          fill: false,
+          tension: 0,
+          borderWidth: 2,
+          pointRadius: 0
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        animation: false,
+        parsing: false,   // use {x,y} directly
+        scales: {
+          x: {
+            type: 'time',
+            time: {
+              tooltipFormat: 'yyyy-MM-dd HH:mm:ss',
+              displayFormats: { hour: 'HH:mm', minute: 'HH:mm' }
+            },
+            grid: { color: 'rgba(128,128,160,.2)' },
+            ticks: { color: 'rgba(200,210,230,.9)' }
+          },
+          y: {
+            min: 0, max: 1, ticks: { stepSize: 1 },
+            grid: { color: 'rgba(128,128,160,.2)' },
+            ticks: { color: 'rgba(200,210,230,.9)' }
+          }
+        },
+        plugins: {
+          legend: { display: false },
+          tooltip: { mode: 'nearest', intersect: false }
+        }
+      }
+    });
+  };
+
+  // ---- Status pill
+  const setStatus = (state, lastChangeIso) => {
+    const pill = document.getElementById('statusPill');
+    pill.classList.remove('on','off');
+    if (state === 'ON') {
+      pill.classList.add('on');
+      pill.textContent = 'Helmet Worn';
+    } else {
+      pill.classList.add('off');
+      pill.textContent = 'Helmet Removed';
+    }
+    document.getElementById('lastChange').textContent = fmt(lastChangeIso);
+  };
+
+  // ---- Loaders
+  const loadLogs = async () => {
+    const res = await fetch('/api/logs?hours=24');
+    const {events} = await res.json();
+    const tbody = document.querySelector('#logTbl tbody');
+    tbody.innerHTML = '';
+    for (const ev of events.slice().reverse()) {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `<td>${fmt(ev.ts_utc)}</td><td>${ev.state}</td>`;
+      tbody.appendChild(tr);
+    }
+  };
+
+  const loadSessions = async () => {
+    const res = await fetch('/api/sessions?hours=24');
+    const {sessions} = await res.json();
+    const tbody = document.querySelector('#sessionsTbl tbody');
+    tbody.innerHTML = '';
+    let totalOn = 0;
+    for (const s of sessions.slice().reverse()) {
+      totalOn += s.duration_sec || 0;
+      const endDisp = s.end_utc ? fmt(s.end_utc) : '<span class="muted">ongoing</span>';
+      const tr = document.createElement('tr');
+      tr.innerHTML = `<td>${fmt(s.start_utc)}</td><td>${endDisp}</td><td class="right">${fmtDur(s.duration_sec)}</td>`;
+      tbody.appendChild(tr);
+    }
+    document.getElementById('uptime24').textContent = fmtDur(totalOn);
+  };
+
+  const loadSeries = async () => {
+    const res = await fetch('/api/series?hours=24');
+    const {points} = await res.json();
+    initChart(points);
+  };
+
+  const loadStatus = async () => {
+    const res = await fetch('/api/status');
+    const {state, last_change_utc} = await res.json();
+    setStatus(state, last_change_utc);
+  };
+
+  // ---- Master refresh
+  const refreshAll = async () => {
+    if (isRefreshing) return;
+    isRefreshing = true;
+    try {
+      await Promise.all([loadStatus(), loadLogs(), loadSessions(), loadSeries()]);
+    } finally {
+      isRefreshing = false;
+    }
+  };
+
+  // ---- Bootstrap
+  document.getElementById('refresh').addEventListener('click', refreshAll);
+  setInterval(refreshAll, 5000);
+  window.addEventListener('load', refreshAll);
+</script>
+
+</body>
+</html>
