@@ -16,7 +16,6 @@
 <li>PCB assembly:</li>
 <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Temperature%20Monitoring%20and%20Controlling%20IoT%20Device/Images/PCB_ISOMETRIC_Temp_IoT_3D.png"></br>
 <li>Circuit diagram and PCB design:</li>
-<img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Temperature%20Monitoring%20and%20Controlling%20IoT%20Device/Images/SCH_Temp_IoT_PCB.png"></br></br>
 <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Temperature%20Monitoring%20and%20Controlling%20IoT%20Device/Images/PCB_TOP_Temp_IoT.png"></br></br>
 <li>PCB 3D TOP view:</li>
 <img src = "https://github.com/kirtansoni1/Project_Portfolio/blob/main/Temperature%20Monitoring%20and%20Controlling%20IoT%20Device/Images/PCB_TOP_Temp_IoT_3D.png"></br></br>
